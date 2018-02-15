@@ -1,12 +1,11 @@
 // first try
-
-//let size = Number(prompt("Enter chess width"));
+// let size = Number(prompt("Enter chess width"));
 let size = 24; // prompt not working with node.js
 let line = '';
 console.log(size + 'x' + size + 'Grid:');
 if (!isNaN(size)) {
-    for (linecount = 1; linecount <= size; linecount++) {
-        for (linewidth = 1; linewidth <= size; linewidth++) {
+    for (lineCount = 1; lineCount <= size; lineCount++) {
+        for (lineWidth = 1; lineWidth <= size; lineWidth++) {
             if(line.length % 2) {
                 line = line + '#';
             } else {

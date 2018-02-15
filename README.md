@@ -1,6 +1,6 @@
 # js-tests
 
-Just some playing around with javascript...
+Just playing around with javascript...
 
 Following the Eloquent Javascript book from Marijn Haverbeke.
 

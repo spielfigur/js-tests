@@ -2,7 +2,7 @@
 const three = 'Fizz';
 const five = 'Buzz';
 
-for (let number = '1'; number <= 100; number++) {
+for (let number = 1; number <= 100; number++) {
     if (number % 3 == 0) {
         if (number % 5 == 0) {
             console.log(three+five); 
@@ -21,7 +21,7 @@ console.log('**************');
 // second try
 const fizz = 'Fizz';
 const fibuzz = 'Buzz';
-for (let number = '1'; number <= 100; number++) {
+for (let number = 1; number <= 100; number++) {
     if ((number % 3 == 0) || (number % 5 == 0)) {
         if ((number % 3 == 0) && (number % 5 == 0)) {
             console.log(fizz+fibuzz); 

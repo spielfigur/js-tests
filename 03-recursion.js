@@ -1,3 +1,4 @@
+// first try
 function isEven(number) {
     let value = 'false';
     if (!isNaN(number)) {
